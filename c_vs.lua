@@ -34,8 +34,8 @@ local function render()
 	
 	local vel=veh.velocity
 	local speed=(vel.x^2 + vel.y^2 + vel.z^2)^(0.5)
-	local fuel=veh:getData("vehicle.fuel") or 0 -- if data==0 or nil
-	local mileage=veh:getData("vehicle.mileage") or 0 -- if data==0 or nil 
+	local fuel=veh:getData('vehicle.fuel') or 0 -- if data==0 or nil
+	local mileage=veh:getData('vehicle.mileage') or 0 -- if data==0 or nil 
 
 	dxSetBlendMode('modulate_add')
 
