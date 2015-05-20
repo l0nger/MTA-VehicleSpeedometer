@@ -1,0 +1,11 @@
+<meta>
+  <oop>true</oop>
+  
+  <file src="assets/licznik.vag" />
+  <file src="assets/arrow.vag" />
+  <file src="assets/arrowFuel.vag" />
+  
+  <file src="assets/distanceFont.ttf" />
+  
+  <script src="c_vs.lua" type="client" />
+</meta>
